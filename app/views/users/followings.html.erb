@@ -1,0 +1,10 @@
+<h1>Followings</h1>
+<% @users.each do |user| %>
+  <div style="line-height:1.5em">
+    <%= gravatar_for user %>
+    Name：<%= user.name %><br>
+    E-mail Address：<%= user.email %><br>
+    Comment：<%= user.comment %><br>
+    Hometown：<%= user.hometown %><br><br>
+  </div>
+<% end %>

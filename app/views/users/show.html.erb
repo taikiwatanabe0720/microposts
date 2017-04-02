@@ -19,4 +19,6 @@
   <h4>E-mail : <%= @user.email %></h4>
   <h4>Comment : <%= @user.comment %></h4>
   <h4>Hometown : <%= @user.hometown %></h4>
+  <%= link_to 'followings:', followings_user_path(@user) %>     
+  <%= link_to 'followers:', followers_user_path(@user) %>
 </div>
