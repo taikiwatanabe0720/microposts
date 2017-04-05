@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.3.0'
 
 gem 'carrierwave', '0.11.2'
 gem 'mini_magick', '4.5.1'
@@ -30,6 +31,8 @@ gem 'bootstrap-sass'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+
+gem 'rails_12factor'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
